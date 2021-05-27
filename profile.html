@@ -1,219 +1,424 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مجال ستور</title>
-    <script src="https://kit.fontawesome.com/08d034aa8b.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>مجال ستور </title>
+
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/material-design-iconic-font.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Responsive -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
 </head>
+
 <body>
-
-<!-- header -->
-<header>
-
-    <div>
-        <ul>
-            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-            <li><a href=""><i class="fa fa-instagram"></i></a></li>
-            <li><a href=""><i class="fa fa-rss"></i></a></li>
-        </ul>
-        <ul>
-            <li>
-                <a href="product-page.html" data-toggle="dropdown">اللغة</a>
+    <div class="mobile-menu">
+        <div class="menu-mobile">
+            <div class="brand-area">
+                <a href="#">
+                    <img src="images/logo.svg">
+                </a>
+            </div>
+            <div class="mmenu">
                 <ul>
-                    <li><a href="#">عربي </a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
-            </li>
-            <li class="dropdown">
-                <a href="product-page.html">العملة</a>
-                <ul>
-                    <li><a href="#">ريال سعودي </a></li>
-                    <li><a href="#">دولار أمريكي</a></li>
-                    <li><a href="#">دينار كويتي</a></li>
-                    <li><a href="#">درهم إماراتي</a></li>
-                    <li><a href="#">دولار أمريكي</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</header>
-
-
-
-<!--  -->
-<div>
-    <div>
-        <a href="#">
-            <img src="images/logo.svg">
-        </a>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="product-page.html"><img src="images/ecommerce.svg" /><span>متاجر رقمية</span></a>
-                <ul>
-                    <li><a href="#">بلاستيشن</a></li>
-                    <li><a href="#">اكس بوكس</a></li>
-                    <li><a href="#">ستيم</a></li>
-                    <li><a href="#">ببجي</a></li>
-                    <li><a href="#">كول اوف ديتي</a></li>
-                    <li><a href="#">ورلد أوف وار كرافت</a></li>
-                    <li><a href="#">فورتناينت</a></li>
-                    <li><a href="#">أبيكس لينجدز</a></li>
-                    <li><a href="#">فري فاير</a></li>
-                    <li><a href="#">رن سكيب</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="product-page.html"><img src="images/Gaming-platforms.svg" /><span>منصات ألعاب</span></a>
-                <ul>
-                    <li><a href="#">بلاستيشن</a></li>
-                    <li><a href="#">اكس بوكس</a></li>
-                    <li><a href="#">ستيم</a></li>
-                    <li><a href="#">ببجي</a></li>
-                    <li><a href="#">كول اوف ديتي</a></li>
-                    <li><a href="#">ورلد أوف وار كرافت</a></li>
-                    <li><a href="#">فورتناينت</a></li>
-                    <li><a href="#">أبيكس لينجدز</a></li>
-                    <li><a href="#">فري فاير</a></li>
-                    <li><a href="#">رن سكيب</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href=""><img src="images/sd-card.svg" /><span>بطاقات إتصالات</span></a>
-            </li>
-            <li>
-                <a href="product-page.html"><img src="images/sim-card.svg" /><span>بطاقات بيانات</span></a>
-            </li>
-            <li>
-                <a href="product-page.html"><img src="images/shop-card.png" /><span>بطاقات تسوق</span></a>
-            </li>
-            <li>
-                <a href="product-page.html"><img src="images/nfc.svg" /><span>خدمات وإشتراكات</span></a>
-            </li>
-            <li>
-                <img src="images/icon-user.svg" alt="" />
-                <a>تسجيل الدخول</a>
-                <a>انشاء حساب</a>
-            </li>
-        </ul>
-    </nav>
-</div>
-
-<!-- header -->
-
-<!--section_profile--> 
-<section>
-    <div>
-        <div>
-            <h2>معلومات الحساب</h2>
-        </div>
-        <div>
-            <form action="">
-                <div>
-                    <div>
-                        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
-                        <label for="imageUpload"></label>
-                    </div>
-                    <div>
-                        <label>الاسم كاملا</label>
-                        <input type="text" value="علاء نصرالله فسيفس" />
-                    </div>
-                    <div>
-                        <label>البريد الالكتروني</label>
-                        <input type="email" value="ala.n.fsifes@gmail.com" />
-                    </div>
-                    <p>لتعديل الأسم أو بريدك الإلكتروني قم بفتح <strong>تذكرة دعم فني</strong></p>
-                    <div >
-                        <label>رقم الجوال</label>
-                        <div>
-                            <input type="text" value="0595285462" />
-                            <select>
-                                <option>970</option>
-                                <option style="background-image:url(images/saudi-arabia.png);">970</option>
-                                <option>970</option>
-                                <option>970</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div><strong>معلومات الأمن</strong></div>
-                    <div>
-                        <label><i class="fa fa-lock"></i> كلمة المرور</label>
-                        <input type="password" value="***********" />
-                        <a><strong>هل تريد تغيير كلمة المرور؟</strong></a>
-                    </div>
-                    <div>
-                        <div>
-                            <p>رصيد حسابك بالموقع:<strong>$ 500.00</strong></p>
-                            <p>نسخ رابط الاحالة: <a>Https://daldsfastoreew.com/365423</a></p>
-                        </div>
-                    </div>
-                </div>
-            </form>
-
-        </div>
-    </div>
-
-</section>
-<!--section_profile--> 
-
-
-<!-- footer -->
-    <footer>
-        <div>
-            <div>
-                <ul>
-                    <li><a href="policy.html">سياسة الاستخدام</a></li>
-                    <li><a href="privacy.html">سياسة الخصوصية</a></li>
-                    <li><a href="recovery.html">سياسة الاسترجاع</a></li>
-                    <li><a href="faq.html">الأسئلة الشائعة</a></li>
-                    <li><a href="about.html">من نحن</a></li>
-                    <li><a href="contact.html">تواصل معنا</a></li>
+                    <li class="dropdown">
+                        <a href="products.html" data-toggle="dropdown"><img src="images/ecommerce.svg" /><span>متاجر رقمية</span></a>
+                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                            <li><a href="#">بلاستيشن</a></li>
+                            <li><a href="#">اكس بوكس</a></li>
+                            <li><a href="#">ستيم</a></li>
+                            <li><a href="#">ببجي</a></li>
+                            <li><a href="#">كول اوف ديتي</a></li>
+                            <li><a href="#">ورلد أوف وار كرافت</a></li>
+                            <li><a href="#">فورتناينت</a></li>
+                            <li><a href="#">أبيكس لينجدز</a></li>
+                            <li><a href="#">فري فاير</a></li>
+                            <li><a href="#">رن سكيب</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="products.html" data-toggle="dropdown"><img src="images/Gaming-platforms.svg" /><span>منصات ألعاب</span></a>
+                        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                            <li><a href="#">بلاستيشن</a></li>
+                            <li><a href="#">اكس بوكس</a></li>
+                            <li><a href="#">ستيم</a></li>
+                            <li><a href="#">ببجي</a></li>
+                            <li><a href="#">كول اوف ديتي</a></li>
+                            <li><a href="#">ورلد أوف وار كرافت</a></li>
+                            <li><a href="#">فورتناينت</a></li>
+                            <li><a href="#">أبيكس لينجدز</a></li>
+                            <li><a href="#">فري فاير</a></li>
+                            <li><a href="#">رن سكيب</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/sd-card.svg" /><span>بطاقات إتصالات</span></a>
+                    </li>
+                    <li>
+                        <a href="products.html"><img src="images/sim-card.svg" /><span>بطاقات بيانات</span></a>
+                    </li>
+                    <li>
+                        <a href="products.html"><img src="images/shop-card.png" /><span>بطاقات تسوق</span></a>
+                    </li>
+                    <li>
+                        <a href="products.html"><img src="images/nfc.svg" /><span>خدمات وإشتراكات</span></a>
+                    </li>
                 </ul>
             </div>
         </div>
-        <div>  
-            <div>
-                <div>
-                    <div>
-                        <figure><img src="images/logo.svg" alt="" /></figure>
-                        <p>مجال ستور يضمن لزبائنها أفضل الأسعار, نحن نضمن لك أنك  لن تجد عرضا أفضل من العروض الموجودة على موقعنا.</p>
-                    </div>
-                    <ul>
-                        <li class="twitter"><a href=""><i class="zmdi zmdi-twitter"></i></a></li>
-                        <li class="facebook"><a href=""><i class="zmdi zmdi-facebook"></i></a></li>
-                        <li class="instagram"><a href=""><i class="fa fa-youtube-play"></i></a></li>
-                        <li class="youtube"><a href=""><i class="fa fa-rss"></i></a></li>
+        <div class="m-overlay"></div>
+    </div>
+    <!--mobile-menu-->
+
+    <div class="main-wrapper">
+
+        <header id="header">
+            <div class="header-top">
+                <div class="container">
+                    <ul class="social-media topHmenu-right clearfix">
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa fa-rss"></i></a></li>
                     </ul>
-                </div> 
-                <div>
-                    <ul class="list-contact">
-                        <li><img src="images/phone-call.svg" /><p>(+800) 123 456 7890</p></li>
-                        <li><img src="images/email.svg" /><p>manager@shop.com</p></li>
-                        <li><img src="images/pin.svg" /><p>Location store</p></li>
-                    </ul>  
-                </div> 
-                <div>
-                    <div>
-                        <p>وسائل الدفع</p>
-                        <ul>
-                            <li><img src="images/master_card.png" /></li>
-                            <li><img src="images/paypal.png" /></li>
-                            <li><img src="images/visa.png" /></li>
+                    <ul class="topHmenu-left clearfix">
+                        <li class="dropdown">
+                            <a data-toggle="dropdown">اللغة</a>
+                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                                <li><a href="#">عربي </a></li>
+                                <li><a href="#">English</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown">العملة</a>
+                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                                <li><a href="#">ريال سعودي </a></li>
+                                <li><a href="#">دولار أمريكي</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <a href="index.html" class="logo-site">
+                                <img src="images/logo.svg" alt="" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-md-5 col-sm-5">
+                            <form class="form-search-head" action="#">
+                                <input type="text" class="form-control" placeholder="بحث عن بطاقة">
+                                <button type="submit" class="btn btn-submit-search"><i class="zmdi zmdi-search" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="clearfix">
+                                <ul class="menu-purches clearfix">
+                                    <li class="cart-purches-btn dropdown dropdown-cart-shooping">
+                                        <a class="show-cart" href="cart.html">
+                                            <div class="title-basket">
+                                                <p>سلتي</p>
+                                                <small>0.00$</small>
+                                            </div>
+                                            <figure><img src="images/icon-shopping.svg" /><span>3</span></figure>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <a class="remove-drop"><i class="zmdi zmdi-close"></i></a>
+                                            <li>
+                                                <div class="image-product">
+                                                    <img src="images/prouduct.png" alt="">
+                                                    <a class="remove-product"><i class="fa fa-trash"></i></a>
+                                                </div>
+                                                <div class="title-cart">
+                                                    <p><a href="#"> تذكرة العاب بلستيشن احترافي</a></p>
+                                                    <div class="price-counter">
+                                                        <strong>50$</strong>
+                                                        <div class="quantity-item">
+                                                            <div class="quantity">
+                                                                <input type="text" name="count-quat1" class="count-quat" value="1">
+                                                                <div class="btn button-count inc jsQuantityIncrease"><i class="fa fa-plus" aria-hidden="true"></i></div>
+                                                                <div class="btn button-count dec jsQuantityDecrease disabled" minimum="1"><i class="fa fa-minus" aria-hidden="true"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="image-product">
+                                                    <img src="images/prouduct.png" alt="">
+                                                    <a class="remove-product"><i class="fa fa-trash"></i></a>
+                                                </div>
+                                                <div class="title-cart">
+                                                    <p><a href="#"> تذكرة العاب بلستيشن احترافي</a></p>
+                                                    <div class="price-counter">
+                                                        <strong>50$</strong>
+                                                        <div class="quantity-item">
+                                                            <div class="quantity">
+                                                                <input type="text" name="count-quat1" class="count-quat" value="1">
+                                                                <div class="btn button-count inc jsQuantityIncrease"><i class="fa fa-plus" aria-hidden="true"></i></div>
+                                                                <div class="btn button-count dec jsQuantityDecrease disabled" minimum="1"><i class="fa fa-minus" aria-hidden="true"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <div class="total-price">
+                                                <p>الاجمالي:</p>
+                                                <strong>$ 130.50</strong>
+                                            </div>
+                                            <div class="option-cart">
+                                                <a href="cart.html" class="btn-site-bg"><small>تفاصيل السلة</small></a>
+                                                <a href="#" class="btn-site outline"><small>شراء الان</small></a>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li class="login-btn pro-btn dropdown">
+                                        <img src="images/pro.jpg" alt="" />
+                                        <a data-toggle="dropdown">ala.n.fsifes@gmail.com</a>
+                                        <ul class="dropdown-menu drop-profile multi-level" role="menu" aria-labelledby="dropdownMenu">
+                                            <li><a href="profile.html">حسابي</a></li>
+                                            <li><a href="cart.html">مشترياتي</a></li>
+                                            <li><a href="ticit-list-supports.html">تذاكر الدعم الفني</a></li>
+                                            <li><a href="">تسجيل خروج</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="clearfix">
+                        <ul class="menu-st main-menu clearfix">
+                            <li class="dropdown">
+                                <a href="products.html" data-toggle="dropdown"><img src="images/ecommerce.svg" /><span>متاجر رقمية</span></a>
+                                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                                    <li><a href="#">بلاستيشن</a></li>
+                                    <li><a href="#">اكس بوكس</a></li>
+                                    <li><a href="#">ستيم</a></li>
+                                    <li><a href="#">ببجي</a></li>
+                                    <li><a href="#">كول اوف ديتي</a></li>
+                                    <li><a href="#">ورلد أوف وار كرافت</a></li>
+                                    <li><a href="#">فورتناينت</a></li>
+                                    <li><a href="#">أبيكس لينجدز</a></li>
+                                    <li><a href="#">فري فاير</a></li>
+                                    <li><a href="#">رن سكيب</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="products.html" data-toggle="dropdown"><img src="images/Gaming-platforms.svg" /><span>منصات ألعاب</span></a>
+                                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                                    <li><a href="#">بلاستيشن</a></li>
+                                    <li><a href="#">اكس بوكس</a></li>
+                                    <li><a href="#">ستيم</a></li>
+                                    <li><a href="#">ببجي</a></li>
+                                    <li><a href="#">كول اوف ديتي</a></li>
+                                    <li><a href="#">ورلد أوف وار كرافت</a></li>
+                                    <li><a href="#">فورتناينت</a></li>
+                                    <li><a href="#">أبيكس لينجدز</a></li>
+                                    <li><a href="#">فري فاير</a></li>
+                                    <li><a href="#">رن سكيب</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href=""><img src="images/sd-card.svg" /><span>بطاقات إتصالات</span></a>
+                            </li>
+                            <li>
+                                <a href="products.html"><img src="images/sim-card.svg" /><span>بطاقات بيانات</span></a>
+                            </li>
+                            <li>
+                                <a href="products.html"><img src="images/shop-card.png" /><span>بطاقات تسوق</span></a>
+                            </li>
+                            <li>
+                                <a href="products.html"><img src="images/nfc.svg" /><span>خدمات وإشتراكات</span></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <div>
-                <p>Copyright © 2020 , MJAL STORE</p>
+        </header>
+        <!--header-->
+
+        <div class="breadcrumb-bar">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i></a></li>
+                    <li class="breadcrumb-item"> الحساب</li>
+                </ol>
             </div>
         </div>
-    </footer>
-    <!-- footer -->
-    
+        <!--breadcrumb-bar-->
+
+        <section class="section_profile">
+            <div class="container">
+                <div class="sec_head text-center">
+                    <h2>معلومات الحساب</h2>
+                </div>
+                <div class="content-profile">
+                    <form class="form-profile">
+                        <div class="main-data">
+                            <div class="avatar-upload">
+                                <div class="avatar-edit">
+                                    <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                    <label for="imageUpload"></label>
+                                </div>
+                                <div class="avatar-preview">
+                                    <div id="imagePreview" style="background-image: url(http://i.pravatar.cc/500?img=7);">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa fa-user"></i> الاسم كاملا</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa fa-envelope"></i> البريد الالكتروني</label>
+                                <input type="email" class="form-control" />
+                            </div>
+                            <p>لتعديل الأسم أو بريدك الإلكتروني قم بفتح <strong>تذكرة دعم فني</strong></p>
+                            <div class="form-group">
+                                <label><i class="fa fa-phone"></i> رقم الجوال</label>
+                                <div class="flex20">
+                                    <input type="text" class="form-control" />
+                                    <select>
+                                        <option>970</option>
+                                        <option>970</option>
+                                        <option>970</option>
+                                        <option>970</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group"><strong>معلومات الأمن</strong></div>
+                            <div class="form-group">
+                                <label><i class="fa fa-lock"></i> كلمة المرور</label>
+                                <input type="password" class="form-control" />
+                                <a class="pull-left mt5"><strong>هل تريد تغيير كلمة المرور؟</strong></a>
+                            </div>
+                        </div>
+                        <div class="setting-data">
+                            <strong></strong>
+                            <div class="fl-setting">
+                                <div class="switch-settings">
+                                    <div class="toggle-wrapper">
+                                        <div class="toggle normal">
+                                            <input class="normal-switch" id="codeMobail" type="checkbox" />
+                                            <label class="toggle-item" for="codeMobail"></label>
+                                            <span>إرسال كود البطاقة الى رقم الجوال</span>
+                                        </div>
+                                    </div>
+                                    <div class="toggle-wrapper">
+                                        <div class="toggle normal">
+                                            <input class="normal-switch" id="codeEmail" type="checkbox" />
+                                            <label class="toggle-item" for="codeEmail"></label>
+                                            <span>إرسال كود البطاقة الى البريد الالكتروني</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="total-balance">
+                                    <p>رصيد حسابك بالموقع:<strong>$ 500.00</strong></p>
+                                    <p>نسخ رابط الاحالة: <a>Https://daldsfastoreew.com/365423</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--section_profile-->
+
+        <footer id="footer">
+            <div class="top-ft">
+                <div class="container">
+                    <ul class="menu-ft">
+                        <li><a href="policy.html">سياسة الاستخدام</a></li>
+                        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                        <li><a href="recovery.html">سياسة الاسترجاع</a></li>
+                        <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="middle-ft">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="log-soci">
+                                <div class="logo-ft">
+                                    <figure><img src="images/logo.svg" alt="" /></figure>
+                                    <p>مجال ستور يضمن لزبائنها أفضل الأسعار, نحن نضمن لك أنك لن تجد عرضا أفضل من العروض الموجودة على موقعنا.</p>
+                                </div>
+                                <ul class="social-media">
+                                    <li class="twitter"><a href=""><i class="zmdi zmdi-twitter"></i></a></li>
+                                    <li class="facebook"><a href=""><i class="zmdi zmdi-facebook"></i></a></li>
+                                    <li class="instagram"><a href=""><i class="fa fa-youtube-play"></i></a></li>
+                                    <li class="youtube"><a href=""><i class="fa fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="list-contact">
+                                <li><img src="images/phone-call.svg" />
+                                    <p>(+800) 123 456 7890</p>
+                                </li>
+                                <li><img src="images/email.svg" />
+                                    <p>manager@shop.com</p>
+                                </li>
+                                <li><img src="images/pin.svg" />
+                                    <p>Location store</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="payment">
+                                <p>وسائل الدفع</p>
+                                <ul>
+                                    <li><img src="images/master_card.png" /></li>
+                                    <li><img src="images/paypal.png" /></li>
+                                    <li><img src="images/visa.png" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-ft">
+                <div class="container">
+                    <div class="copyright">
+                        <p>Copyright © 2020 , MJAL STORE</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer-->
+
+    </div>
+    <!--main-wrapper-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/script.js"></script>
+
+
 </body>
+
 </html>

@@ -107,6 +107,9 @@
                             <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                                 <li><a href="#">ريال سعودي </a></li>
                                 <li><a href="#">دولار أمريكي</a></li>
+                                <li><a href="#">دينار كويتي</a></li>
+                                <li><a href="#">درهم إماراتي</a></li>
+                                <li><a href="#">دولار أمريكي</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -130,7 +133,7 @@
                             <div class="clearfix">
                                 <ul class="menu-purches clearfix">
                                     <li class="cart-purches-btn dropdown dropdown-cart-shooping">
-                                        <a class="show-cart">
+                                        <a class="show-cart" href="cart.html">
                                             <div class="title-basket">
                                                 <p>سلتي</p>
                                                 <small>0.00$</small>
@@ -255,7 +258,7 @@
             <div class="container">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html"><i class="fa fa-home"></i></a></li>
-                    <li class="breadcrumb-item"> سلة التسوق</li>
+                    <li class="breadcrumb-item"> تذاكر الدعم الفني</li>
                 </ol>
             </div>
         </div>
@@ -264,108 +267,39 @@
         <section class="section_ticit_supp">
             <div class="container">
                 <div class="sec_head text-center">
-                    <h2>سلة التسوق</h2>
+                    <h2>تذاكر الدعم الفني</h2>
+                    <p>قدم تذكرة في حال واجهتك اي مشكلة في الشراء</p>
                 </div>
-                <div class="content-ticit">
-                    <table class="table-site tabel-cart">
+                <div class="content-ticit table-responsive">
+                    <a class="add-ticit" data-toggle="modal" data-target="#modal-new-ticit"><i class="zmdi zmdi-plus"></i>تذكرة جديدة</a>
+                    <table class="table-site table-ticit">
                         <tr>
-                            <th>المنتج</th>
-                            <th>الكمية</th>
-                            <th>السعر</th>
-                            <th>حذف</th>
+                            <th>#</th>
+                            <th>عنوان التذكرة</th>
+                            <th>حالة التذكرة</th>
+                            <th>نوع التذكرة</th>
+                            <th>تاريخ الاضافة</th>
+                            <th>آخر التحديث</th>
+                        </tr>
+
+                        <tr>
+                            <td>23435</td>
+                            <td>مشكلة بالدعم</td>
+                            <td>بانتظار الرد</td>
+                            <td>مشكلة بالدفع والتحويل</td>
+                            <td>11/05/2020</td>
+                            <td>22/10/2020</td>
                         </tr>
                         <tr>
-                            <td>
-                                <div class="boc-pr">
-                                    <figure><img src="images/prouduct.png" alt="" /></figure>
-                                    <div class="sec-title">
-                                        <p>العاب بلستيشن</p>
-                                        <span>تذكرة العاب بلستيشن احترافي</span>
-                                        <div class="data-mobail">
-                                            <div class="quantity-item">
-                                                <div class="quantity">
-                                                    <input type="text" name="count-quat1" class="count-quat" value="1">
-                                                    <div class="btn button-count inc jsQuantityIncrease"><i class="fa fa-plus" aria-hidden="true"></i></div>
-                                                    <div class="btn button-count dec jsQuantityDecrease disabled" minimum="1"><i class="fa fa-minus" aria-hidden="true"></i></div>
-                                                </div>
-                                            </div>
-                                            <p>$ 100</p>
-                                            <a class="remove-pr"><i class="fa fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="quantity-item">
-                                    <div class="quantity">
-                                        <input type="text" name="count-quat1" class="count-quat" value="1">
-                                        <div class="btn button-count inc jsQuantityIncrease"><i class="fa fa-plus" aria-hidden="true"></i></div>
-                                        <div class="btn button-count dec jsQuantityDecrease disabled" minimum="1"><i class="fa fa-minus" aria-hidden="true"></i></div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>$ 100</td>
-                            <td><a class="remove-pr"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="boc-pr">
-                                    <figure><img src="images/prouduct.png" alt="" /></figure>
-                                    <div class="sec-title">
-                                        <p>العاب بلستيشن</p>
-                                        <span>تذكرة العاب بلستيشن احترافي</span>
-                                        <div class="data-mobail">
-                                            <div class="quantity-item">
-                                                <div class="quantity">
-                                                    <input type="text" name="count-quat1" class="count-quat" value="1">
-                                                    <div class="btn button-count inc jsQuantityIncrease"><i class="fa fa-plus" aria-hidden="true"></i></div>
-                                                    <div class="btn button-count dec jsQuantityDecrease disabled" minimum="1"><i class="fa fa-minus" aria-hidden="true"></i></div>
-                                                </div>
-                                            </div>
-                                            <p>$ 100</p>
-                                            <a class="remove-pr"><i class="fa fa-trash"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="quantity-item">
-                                    <div class="quantity">
-                                        <input type="text" name="count-quat1" class="count-quat" value="1">
-                                        <div class="btn button-count inc jsQuantityIncrease"><i class="fa fa-plus" aria-hidden="true"></i></div>
-                                        <div class="btn button-count dec jsQuantityDecrease disabled" minimum="1"><i class="fa fa-minus" aria-hidden="true"></i></div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>$ 100</td>
-                            <td><a class="remove-pr"><i class="fa fa-trash"></i></a></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="option-table-cart">
-                                    <div class="total-cart">
-                                        <p>الاجمالي:</p><strong>$ 130.50</strong>
-                                    </div>
-                                    <ul>
-                                        <li><span>كوبون الخصم</span>
-                                            <form><input type="text" class="form-control" placeholder="..." /></form>
-                                        </li>
-                                        <li><a class="btn-site btn-shop"><span>شراء الان</span></a></li>
-                                    </ul>
-                                </div>
-                            </td>
+                            <td>23435</td>
+                            <td>مشكلة بالدعم</td>
+                            <td>بانتظار الرد</td>
+                            <td>مشكلة بالدفع والتحويل</td>
+                            <td>11/05/2020</td>
+                            <td>22/10/2020</td>
                         </tr>
                     </table>
                 </div>
-
-                <div class="not-mobail">
-                    <div class="sec-title">
-                        <img src="images/005-warning.svg" alt="" />
-                        <h2>يحتاج رقم الجوال الى تفعيل!</h2>
-                    </div>
-                    <figure><img src="images/not-mobail.png" alt="" /></figure>
-                </div>
-
             </div>
         </section>
         <!--section_ticit_supp-->
@@ -436,6 +370,43 @@
         </footer>
         <!--footer-->
 
+        <div class="modal fade" id="modal-new-ticit" tabindex="-1" role="dialog" aria-labelledby="modal-new-ticit" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p>تذكرة جديدة</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="zmdi zmdi-close"></span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-new-ticit">
+                            <div class="form-group">
+                                <label>عنوان التذكرة</label>
+                                <input type="text" class="form-control" placeholder="أضف عنوان التذكرة يصف المشكلة بشكل دقيق" />
+                            </div>
+                            <div class="form-group">
+                                <label>نوع التذكرة</label>
+                                <input type="text" class="form-control" placeholder="قم باختيار نوع التذكرة من القائمة المنسدلة" />
+                            </div>
+                            <div class="form-group">
+                                <label>المرفقات(اختياري)</label>
+                                <input type="file" name="file-7[]" id="file-7" class="inputfile" data-multiple-caption="{count} arquivos selecionados" multiple>
+                                <label for="file-7"><span class="archive-name"></span><span class="btn-inputfile">تصفح</span></label>
+                            </div>
+                            <div class="form-group">
+                                <label>تفاصيل التذكرة</label>
+                                <textarea class="form-control" placeholder="أضف تفاصيل التذكرة بشكتفاصيل التذكرةل مفصل وارفاق أي صور للأخطاء عند وجودها"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn-shop">اضافة</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!--main-wrapper-->
     <script src="js/popper.min.js"></script>
@@ -447,6 +418,46 @@
 
     <script>
         new WOW().init();
+
+
+        /*
+	By Osvaldas Valutis, www.osvaldas.info
+	Available for use under the MIT License
+*/
+
+        'use strict';
+
+        ;
+        (function($, window, document, undefined) {
+            $('.inputfile').each(function() {
+                var $input = $(this),
+                    $label = $input.next('label'),
+                    labelVal = $label.html();
+
+                $input.on('change', function(e) {
+                    var fileName = '';
+
+                    if (this.files && this.files.length > 1)
+                        fileName = (this.getAttribute('data-multiple-caption') || '').replace('{count}', this.files.length);
+                    else if (e.target.value)
+                        fileName = e.target.value.split('\\').pop();
+
+                    if (fileName)
+                        $label.find('.archive-name').html(fileName);
+                    else
+                        $label.html(labelVal);
+                });
+
+                // Firefox bug fix
+                $input
+                    .on('focus', function() {
+                        $input.addClass('has-focus');
+                    })
+                    .on('blur', function() {
+                        $input.removeClass('has-focus');
+                    });
+            });
+        })(jQuery, window, document);
 
     </script>
 
